@@ -1,0 +1,86 @@
+/* IMPORTATION DE LA TYPO */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:bold,italic,regular');
+
+/* GENERALITES */
+
+html,body{
+    margin: 0 auto;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    background-color: #efefef;
+}
+body {
+    height: 100%;
+    background-color: #efefef;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif, bold;
+}
+
+.main p{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 155px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ECRAN VIDEO */
+
+iframe{
+ 	width: 100%;
+ 	height:100%;
+ 	margin: 0px auto;
+    opacity: 0.5;
+}
+
+.ecran-vd{
+	width:100%;
+    height: 100%;
+	margin: 0 auto;
+    top: 0px;
+    position: absolute;
+    
+}
+
+.ecran-vd img {
+    width: 400px;
+    position: relative;
+    top: 30vh;
+    left : 35vw;
+}
+
+.slogan {
+    font-family: 'Raleway', sans-serif, bold;
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top : 50vh;
+    left: 35vw;
+}
+
+/* MAIN */
+
+.main {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.main img{
+   width: 100px;
+   padding-bottom:40px ;
+   display: block;
+   margin: 0 auto;
+}
+footer
+{
+display: block;
+}

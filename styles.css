@@ -1,0 +1,104 @@
+/*******CSS Cinephy**************/
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+body{ margin:0;
+background-color:#98035a;
+font-family: 'Roboto';
+
+}
+html{
+	background-color:whitesmoke;
+
+}
+main { width:1050px;
+       margin: 0 auto;
+       background:white;
+       min-width: 1050px;
+       width: auto!important;
+       margin-top: 50px;
+       font-family: 'Roboto';
+				  	}
+.container{
+	width: 1050px;
+}				
+/*******CSS font   **************/
+p{
+		text-align:center;
+		color:black;
+}
+form { text-align:center;
+	     }
+	    h3 a{
+	    	color: #ff0068;
+	    }
+/*******container   *************************************/
+/*******CSS header **************/
+header {        width:100%;
+				background: white;
+				height: 50px;
+				border-bottom: 1px solid #80808033;
+}
+header a{
+	color: black;
+	line-height: 50px;
+}
+
+  #lien_fabrication_diy {
+	background:#ff0068 ;
+	color: white;
+	padding: 10px;
+	margin-left: 36.5%;
+	margin-right: 6%;
+	line-height: 50px;
+}
+  #lien_fabrication_diy:hover {
+	background:#ae2f4c ;
+	
+}
+#logo{
+	margin-right: 6%;
+	margin-left: 9%;
+}
+#deconection{
+	text-align: right;
+}
+/*******container **************/
+.head-tuto{
+	background: whitesmoke;
+	width: 100%;
+}
+.thumbnail{
+	border: none;
+}
+
+/*******footer **************/
+footer{
+	background: whitesmoke;
+	height: 50px;
+}
+footer ul{
+	margin: 0 auto;
+	text-align: center;
+}
+footer li{display: inline-block;
+	      text-decoration: none;
+	      width: 150px;
+	      margin: 50px;
+}
+footer li a{
+	 color: grey;
+	 text-decoration: none;
+
+
+}
+footer li a:hover{
+	 color: #ff0068;
+	 text-decoration: none;
+
+}
+.footer_bottom{
+	background: ;
+	height: 300px;
+	width: 100%;
+	display: inline-block;
+
+}
